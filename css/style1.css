@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#logo
+{
+background:url(../img/doit.bmp) no-repeat center top; /* 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:90px;                   /* text area height */
+    width:200px;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+   }                                /* offset horizontal: half of text area width */
+body
+{
+background-color:#00CCFF;
+}
